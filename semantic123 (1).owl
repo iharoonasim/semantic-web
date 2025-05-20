@@ -1,0 +1,1704 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY capstone "http://www.semanticweb.org/ontologies/capstone#" >
+    <!ENTITY untitled-ontology-9 "http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#" >
+]>
+
+
+<rdf:RDF xmlns="http://example.org/capstone#"
+     xml:base="http://example.org/capstone"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:capstone="http://www.semanticweb.org/ontologies/capstone#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://example.org/capstone"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasAllocatedAmount -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasAllocatedAmount">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Budget"/>
+        <rdfs:domain rdf:resource="&capstone;Budget"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasCompletionStatus -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasCompletionStatus">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Milestone"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasEmail -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasEmail">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Student"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasEvaluationWeightage -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasEvaluationWeightage">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;FacultyAdvisor"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasExpenseReportSubmitted -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasExpenseReportSubmitted">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Student"/>
+        <rdfs:domain rdf:resource="&capstone;Budget"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasExternalFundingAvailable -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasExternalFundingAvailable">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Budget"/>
+        <rdfs:domain rdf:resource="&capstone;Budget"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasFeedbackProvided -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasFeedbackProvided">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;FacultyAdvisor"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasFinalGrade -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasFinalGrade">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Evaluation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasGradingRubricDetails -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasGradingRubricDetails">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Evaluation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasIntellectualPropertyAgreement -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasIntellectualPropertyAgreement">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;IndustryPartner"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasMilestoneTitle -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasMilestoneTitle">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Milestone"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasProjectRepositoryLink -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasProjectRepositoryLink">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Project"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasResourceRequestStatus -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasResourceRequestStatus">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Budget"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasSubmissionStatus -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasSubmissionStatus">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;Project"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/2/untitled-ontology-9#hasTeamName -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-9;hasTeamName">
+        <rdfs:domain rdf:resource="&untitled-ontology-9;StudentTeam"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/capstone#collaborationDetails -->
+
+    <owl:AnnotationProperty rdf:about="&capstone;collaborationDetails">
+        <rdfs:domain rdf:resource="&capstone;Collaboration"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/capstone#industrySupportType -->
+
+    <owl:AnnotationProperty rdf:about="&capstone;industrySupportType">
+        <rdfs:domain rdf:resource="&capstone;IndustryPartner"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/capstone#milestoneDeadline -->
+
+    <owl:AnnotationProperty rdf:about="&capstone;milestoneDeadline">
+        <rdfs:domain rdf:resource="&capstone;Milestone"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/capstone#numberOfStudents -->
+
+    <owl:AnnotationProperty rdf:about="&capstone;numberOfStudents">
+        <rdfs:domain rdf:resource="&capstone;StudentTeam"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="&xsd;date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/capstone#administeredBy -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#administeredBy">
+        <rdfs:range rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#belongsToDomain -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#belongsToDomain">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#collabratesvia -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#collabratesvia">
+        <rdfs:range rdf:resource="http://example.org/capstone/CollaborationTools"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#documentedIn -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#documentedIn">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ProjectRepository"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#evaluatesProject -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#evaluatesProject">
+        <rdfs:range rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasDeadline -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasDeadline">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/SubmissionDeadline"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasDeliverable -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasDeliverable">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/Deliverables"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasFacultyName -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasFacultyName">
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/FacultyName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasIPRules -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasIPRules">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/IntellectualProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasIndustryName -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasIndustryName">
+        <rdfs:range rdf:resource="http://example.org/capstone/IndustryName"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/IndustryPartner"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasMember">
+        <rdfs:range rdf:resource="http://example.org/capstone/StudentMembers"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasMilstones -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasMilstones">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/Milestones"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasexperence -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#hasexperence">
+        <rdfs:range rdf:resource="http://example.org/capstone/AreaOfExpertise"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#performsRole -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#performsRole">
+        <rdfs:range rdf:resource="http://example.org/capstone/RolesAndResponsibilities"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#reviewsProgress -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#reviewsProgress">
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ProjectProgressTracking"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#supervisesProject -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#supervisesProject">
+        <rdfs:range rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#trackProgress -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#trackProgress">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ProjectProgressTracking"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone#usesTechnology -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone#usesTechnology">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ToolsAndTechnologiesUsed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone/assignedToFaculty -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone/assignedToFaculty">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/FacultyMentor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone/fundedByBudget -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone/fundedByBudget">
+        <rdfs:range rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone/hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone/hasDescription">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ProjectDescription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone/hasTitle -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone/hasTitle">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ProjectTitle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/capstone/usesResource -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/capstone/usesResource">
+        <rdfs:domain rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:range rdf:resource="http://example.org/capstone/ResourceManagement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/capstone#hasAllocatedAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasAllocatedAmount">
+        <rdfs:domain rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasCommunicationMode -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasCommunicationMode">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasCompletionStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasCompletionStatus">
+        <rdfs:domain rdf:resource="http://example.org/capstone/Milestones"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasDeadlineDate -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasDeadlineDate">
+        <rdfs:domain rdf:resource="http://example.org/capstone/Milestones"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasDescription">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasDomain -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasDomain">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasEmail -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasEmail">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasEquipmentRequired -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasEquipmentRequired">
+        <rdfs:domain rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasEstimatedBudget -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasEstimatedBudget">
+        <rdfs:domain rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasEvaluationMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasEvaluationMethod">
+        <rdfs:domain rdf:resource="http://example.org/capstone/IndustryPartner"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasEvaluationWeightage -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasEvaluationWeightage">
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasExpectedDeliverables -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasExpectedDeliverables">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasExpenseReportSubmitted -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasExpenseReportSubmitted">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasExpenseTrackingMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasExpenseTrackingMethod">
+        <rdfs:domain rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasExpertise -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasExpertise">
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasExternalFundingAvailable -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasExternalFundingAvailable">
+        <rdfs:domain rdf:resource="http://example.org/capstone/SupportProvided"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasFeedbackMechanism -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasFeedbackMechanism">
+        <rdfs:domain rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasFeedbackProvided -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasFeedbackProvided">
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasFinalGrade -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasFinalGrade">
+        <rdfs:domain rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasFinalOutcome -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasFinalOutcome">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasGradingCriteria -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasGradingCriteria">
+        <rdfs:domain rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasIntellectualPropertyAgreement -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasIntellectualPropertyAgreement">
+        <rdfs:domain rdf:resource="http://example.org/capstone/IndustryPartner"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasKeyChallenges -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasKeyChallenges">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasLabFacilitiesRequired -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasLabFacilitiesRequired">
+        <rdfs:domain rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasMilestoneDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasMilestoneDescription">
+        <rdfs:domain rdf:resource="http://example.org/capstone/Milestones"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasMilestoneTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasMilestoneTitle">
+        <rdfs:domain rdf:resource="http://example.org/capstone/Milestones"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasName">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasProjectRepositoryLink -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasProjectRepositoryLink">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectRepository"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasResourceRequestStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasResourceRequestStatus">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ResourceManagement"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasResponsibility -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasResponsibility">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasReviewFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasReviewFrequency">
+        <rdfs:domain rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasRole -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasRole">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasSubmissionStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasSubmissionStatus">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasSupportType -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasSupportType">
+        <rdfs:domain rdf:resource="http://example.org/capstone/IndustryPartner"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasTeamName -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasTeamName">
+        <rdfs:domain rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasTitle">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasToolsUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasToolsUsed">
+        <rdfs:domain rdf:resource="http://example.org/capstone/ProjectCategory"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/capstone#hasVersionControlType -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/capstone#hasVersionControlType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/capstone#BudgetApprovelProcess -->
+
+    <owl:Class rdf:about="http://example.org/capstone#BudgetApprovelProcess">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone/hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone#BudgetApprovelProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#BusinessDomain -->
+
+    <owl:Class rdf:about="http://example.org/capstone#BusinessDomain">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#CapstoneProjectManagementCommitee -->
+
+    <owl:Class rdf:about="http://example.org/capstone#CapstoneProjectManagementCommitee">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#administeredBy"/>
+                <owl:onClass rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://example.org/capstone#FacultyAdvisors"/>
+        <owl:disjointWith rdf:resource="http://example.org/capstone#IndustryExperts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#CopyrightRules -->
+
+    <owl:Class rdf:about="http://example.org/capstone#CopyrightRules">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/IntellectualProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#DAtaScience -->
+
+    <owl:Class rdf:about="http://example.org/capstone#DAtaScience">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#DocumentSubmitted -->
+
+    <owl:Class rdf:about="http://example.org/capstone#DocumentSubmitted">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectRepository"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasDeadline"/>
+                <owl:allValuesFrom rdf:resource="http://example.org/capstone#DocumentSubmitted"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#EquipmentRequirementTracking -->
+
+    <owl:Class rdf:about="http://example.org/capstone#EquipmentRequirementTracking">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ResourceManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#EstimatedProjectBudget -->
+
+    <owl:Class rdf:about="http://example.org/capstone#EstimatedProjectBudget">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEstimatedBudget"/>
+                <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#FacultyAdvisors -->
+
+    <owl:Class rdf:about="http://example.org/capstone#FacultyAdvisors">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#administeredBy"/>
+                <owl:onClass rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://example.org/capstone#IndustryExperts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#FinalReport -->
+
+    <owl:Class rdf:about="http://example.org/capstone#FinalReport">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Deliverables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#FinalSubmission -->
+
+    <owl:Class rdf:about="http://example.org/capstone#FinalSubmission">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Milestones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#FinancialAnalysis -->
+
+    <owl:Class rdf:about="http://example.org/capstone#FinancialAnalysis">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#FinancialReporting -->
+
+    <owl:Class rdf:about="http://example.org/capstone#FinancialReporting">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasExpenseReportSubmitted"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#FinancialResourceTracker -->
+
+    <owl:Class rdf:about="http://example.org/capstone#FinancialResourceTracker">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/BudgetAllocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasExpenseTrackingMethod"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#HardwareProduct -->
+
+    <owl:Class rdf:about="http://example.org/capstone#HardwareProduct">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Deliverables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#IndustryExperts -->
+
+    <owl:Class rdf:about="http://example.org/capstone#IndustryExperts">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#administeredBy"/>
+                <owl:onClass rdf:resource="http://example.org/capstone/AdministrativeRoles"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#Innovation -->
+
+    <owl:Class rdf:about="http://example.org/capstone#Innovation">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#LabFacilitiesAllocation -->
+
+    <owl:Class rdf:about="http://example.org/capstone#LabFacilitiesAllocation">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ResourceManagement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasLabFacilitiesRequired"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#MaintenanceAndResourceUsageMonitoring -->
+
+    <owl:Class rdf:about="http://example.org/capstone#MaintenanceAndResourceUsageMonitoring">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ResourceManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#MechanicalEng -->
+
+    <owl:Class rdf:about="http://example.org/capstone#MechanicalEng">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#MidTermReview -->
+
+    <owl:Class rdf:about="http://example.org/capstone#MidTermReview">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Milestones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#PosterAndVideo -->
+
+    <owl:Class rdf:about="http://example.org/capstone#PosterAndVideo">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ProgressReports -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ProgressReports">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Milestones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#trackProgress"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone#ProgressReports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ProjectAssignment -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ProjectAssignment">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone/assignedToFaculty"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone#ProjectAssignment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ProjectDocumentationQuality -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ProjectDocumentationQuality">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ProjectOwnershipRights -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ProjectOwnershipRights">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/IntellectualProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ReferencePublication -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ReferencePublication">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectRepository"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#documentedIn"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone#ReferencePublication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ResearchMaterial -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ResearchMaterial">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectRepository"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#ResearchPaper -->
+
+    <owl:Class rdf:about="http://example.org/capstone#ResearchPaper">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Deliverables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#SoftwareEngineering -->
+
+    <owl:Class rdf:about="http://example.org/capstone#SoftwareEngineering">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#SoftwareProduct -->
+
+    <owl:Class rdf:about="http://example.org/capstone#SoftwareProduct">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Deliverables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#TeamworkAndContribution -->
+
+    <owl:Class rdf:about="http://example.org/capstone#TeamworkAndContribution">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#UserExperienceDesign -->
+
+    <owl:Class rdf:about="http://example.org/capstone#UserExperienceDesign">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#VersionControl -->
+
+    <owl:Class rdf:about="http://example.org/capstone#VersionControl">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/ProjectRepository"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasVersionControlType"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasProjectRepositoryLink"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone#WorkingPrototype -->
+
+    <owl:Class rdf:about="http://example.org/capstone#WorkingPrototype">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/Deliverables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/AdministrativeRoles -->
+
+    <owl:Class rdf:about="http://example.org/capstone/AdministrativeRoles"/>
+    
+
+
+    <!-- http://example.org/capstone/AreaOfExpertise -->
+
+    <owl:Class rdf:about="http://example.org/capstone/AreaOfExpertise">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasexperence"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/AreaOfExpertise"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasExpertise"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/BudgetAllocation -->
+
+    <owl:Class rdf:about="http://example.org/capstone/BudgetAllocation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasAllocatedAmount"/>
+                <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/CapstoneProject -->
+
+    <owl:Class rdf:about="http://example.org/capstone/CapstoneProject"/>
+    
+
+
+    <!-- http://example.org/capstone/CollaborationObjectives -->
+
+    <owl:Class rdf:about="http://example.org/capstone/CollaborationObjectives">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/IndustryPartner"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#reviewsProgress"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/CollaborationObjectives"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/CollaborationTools -->
+
+    <owl:Class rdf:about="http://example.org/capstone/CollaborationTools">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasCommunicationMode"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#collabratesvia"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/CollaborationTools"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasToolsUsed"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/Deliverables -->
+
+    <owl:Class rdf:about="http://example.org/capstone/Deliverables">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasDeliverable"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/Deliverables"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasFinalOutcome"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/EvaluationCriteria -->
+
+    <owl:Class rdf:about="http://example.org/capstone/EvaluationCriteria">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#evaluatesProject"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/EvaluationCriteria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEvaluationMethod"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEvaluationWeightage"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/EvaluationRole -->
+
+    <owl:Class rdf:about="http://example.org/capstone/EvaluationRole">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEvaluationWeightage"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#evaluatesProject"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/EvaluationRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEvaluationMethod"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ExpectedDeliverables -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ExpectedDeliverables">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasExpectedDeliverables"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasDeliverable"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/ExpectedDeliverables"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/FacultyMentor -->
+
+    <owl:Class rdf:about="http://example.org/capstone/FacultyMentor"/>
+    
+
+
+    <!-- http://example.org/capstone/FacultyName -->
+
+    <owl:Class rdf:about="http://example.org/capstone/FacultyName">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/FacultyMentor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasName"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasFacultyName"/>
+                <owl:allValuesFrom rdf:resource="http://example.org/capstone/FacultyName"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/IndustryName -->
+
+    <owl:Class rdf:about="http://example.org/capstone/IndustryName">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/IndustryPartner"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasName"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasIndustryName"/>
+                <owl:allValuesFrom rdf:resource="http://example.org/capstone/IndustryName"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/IndustryPartner -->
+
+    <owl:Class rdf:about="http://example.org/capstone/IndustryPartner"/>
+    
+
+
+    <!-- http://example.org/capstone/IntellectualProperty -->
+
+    <owl:Class rdf:about="http://example.org/capstone/IntellectualProperty">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasIntellectualPropertyAgreement"/>
+                <owl:someValuesFrom rdf:resource="&xsd;boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/KeyChallenges -->
+
+    <owl:Class rdf:about="http://example.org/capstone/KeyChallenges">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone/hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/KeyChallenges"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasKeyChallenges"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/Milestones -->
+
+    <owl:Class rdf:about="http://example.org/capstone/Milestones">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasMilestoneDescription"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasMilestoneTitle"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasMilstones"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/Milestones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ProjectCategory -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ProjectCategory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasDomain"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#belongsToDomain"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/ProjectCategory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasTitle"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ProjectDescription -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ProjectDescription">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone/hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/ProjectDescription"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ProjectProgressTracking -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ProjectProgressTracking">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#trackProgress"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/ProjectProgressTracking"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ProjectRepository -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ProjectRepository">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasProjectRepositoryLink"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ProjectTitle -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ProjectTitle">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone/hasTitle"/>
+                <owl:onClass rdf:resource="http://example.org/capstone/ProjectTitle"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasTitle"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ResourceManagement -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ResourceManagement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasResourceRequestStatus"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEquipmentRequired"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone/usesResource"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/ResourceManagement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/RolesAndResponsibilities -->
+
+    <owl:Class rdf:about="http://example.org/capstone/RolesAndResponsibilities">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#performsRole"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/RolesAndResponsibilities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasResponsibility"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/StudentMembers -->
+
+    <owl:Class rdf:about="http://example.org/capstone/StudentMembers">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasName"/>
+                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasMember"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/StudentMembers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasTeamName"/>
+                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasEmail"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasRole"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/StudentTeam -->
+
+    <owl:Class rdf:about="http://example.org/capstone/StudentTeam"/>
+    
+
+
+    <!-- http://example.org/capstone/SubmissionDeadline -->
+
+    <owl:Class rdf:about="http://example.org/capstone/SubmissionDeadline">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasSubmissionStatus"/>
+                <owl:someValuesFrom rdf:resource="&xsd;boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasDeadline"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/SubmissionDeadline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/SupportProvided -->
+
+    <owl:Class rdf:about="http://example.org/capstone/SupportProvided">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/IndustryPartner"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasExternalFundingAvailable"/>
+                <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/TeamFormationMethod -->
+
+    <owl:Class rdf:about="http://example.org/capstone/TeamFormationMethod">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/StudentTeam"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasResponsibility"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#performsRole"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/TeamFormationMethod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/capstone/ToolsAndTechnologiesUsed -->
+
+    <owl:Class rdf:about="http://example.org/capstone/ToolsAndTechnologiesUsed">
+        <rdfs:subClassOf rdf:resource="http://example.org/capstone/CapstoneProject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#hasToolsUsed"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/capstone#usesTechnology"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/capstone/ToolsAndTechnologiesUsed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
